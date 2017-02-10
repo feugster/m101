@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(31.7%, 100%, 0%);
+    margin: 50px;    
+}
+
+#Überschrift1 {
+    font-size: 100px
+    border-style: ridge;
+    border-radius: 25px;
+    background: rgb(29.8%, 89.1%, 90.2%);
+    padding: 20px;
+    width: 200px;
+
+}
+
+.Frage {
+}
+#Lösung{
+    height: 50px;
+    width: 100px;
+    float: center;
+}
