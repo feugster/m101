@@ -13,10 +13,14 @@ body {
 
 }
 
-.Frage {
-}
-#Lösung{
+.button {
     height: 50px;
     width: 100px;
+    float: center;
+}
+
+#help.button{
+    height: 50px;
+    width: 200px;
     float: center;
 }
