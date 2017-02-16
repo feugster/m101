@@ -1,34 +1,48 @@
-
 <!doctype html>
 <html lang="de">
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        
         <meta charset="utf-8">
         <title>Website</title>
-        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
-     <header>
         <nav>
-             <ul>
-            <li><a href="Wikipedia.com">Wikipedia</a></li>
-            <li><a href="google.ch">Google</a></li>
-            <li><a href="Youtube.ch">Youtube</a></li>
-            <li><a href="20min.ch">20 Minuten</a></li>
-            </ul> 
+            <ul>
+            <li class="navigation" id="navigationslink1"><a href="http://www.Wikipedia.org">Wikipedia</a></li>
+            <li class="navigation" id="navigationslink2"><a href="http://www.google.ch">Google</a></li>
+            <li class="navigation" id="navigationslink3"><a href="http://www.Youtube.ch">Youtube</a></li>
+            <li class="navigation" id="navigationslink4"><a href="http://www.20min.ch">20 Minuten</a></li>
+            </ul>
         </nav>
-    </header>
-    <body>
+        <header>
+<div class="Formular" id="fixed">
+        <form action="anmelden.html">
+            <input type="text" name="firstname" value="Vorname">
+            <input type="Text" name="lastname" value="Nachname">
+            <input type="submit" value="Anmelden">
+     </form>
+        
+    </div>
+        </header>
+            <br></br>
+            <br></br>
+    <body id="page1" background="http://wlpapers.com/images/blurry-background-1.jpg">
 
-<center><u><h1 id="Überschrift1"> Frage</h1></u></center>
+<center><font face="Pacifico,Arial,Helvetica"><h1 id="Überschrift1"> Frage</h1></font></center>
 
 <center><p class="Frage">Sie stapeln fünf Würfel übereinander zu einem Turm. Ein Zauberer steht mit dem Rücken zu Ihnen und bittet Sie, ihm die Augenzahl auf der Oberseite des Würfels ganz oben zu nennen. Es ist eine Sechs. Der Magier überlegt kurz und sagt Ihnen dann die Summe aller Augenzahlen, die am Würfelturm von allen vier Seiten und von oben zu sehen sind. Welche Zahl nennt er?</p></center>
 
-<center>   <button type="button" class="button" id="lösung1" onClick="window.alert('Falsch!','Falsch')">66</button>
-           <button type="button" class="button" id="lösung2" onClick="window.alert('Falsch!','Falsch')">71</button>
-           <button type="button" class="button" id="lösung3" onClick="window.alert('Richtig!','Richtig')">76</button>
+<br></br>
+
+<center>   
+        <button type="button" class="button" id="lösung1" onClick="window.alert('Falsch!','Falsch')">66</button>
+        <button type="button" class="button" id="lösung2" onClick="window.alert('Falsch!','Falsch')">71</button>
+        <button type="button" class="button" id="lösung3" onClick="window.alert('Richtig!','Richtig')">76</button>
 
         <p><button type="button" class="button" id="help" onClick="window.alert('Sie müssen rechnen!','rechnen')">Help</button></p>
     </center>
 <footer>
-    </footer>
+</footer>
 
 </html>

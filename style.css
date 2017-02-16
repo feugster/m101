@@ -1,13 +1,14 @@
+
+
 body {
-    background-color: rgb(31.7%, 100%, 0%);
-    margin: 50px;    
+     margin: 50px;   
 }
 
 #Überschrift1 {
     font-size: 100px
     border-style: ridge;
     border-radius: 25px;
-    background: rgb(29.8%, 89.1%, 90.2%);
+    background-image: url("http://wallpapercave.com/wp/sU4PDPQ.jpg");
     padding: 20px;
     width: 200px;
 
@@ -17,10 +18,64 @@ body {
     height: 50px;
     width: 100px;
     float: center;
+    margin: 1rem;
 }
 
-#help.button{
+#help.button {
     height: 50px;
     width: 200px;
     float: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 50%;
+    height: 52px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+    
+
+ a:link {
+ }
+
+a:visited {
+ }
+
+a:hover {
+    color: rgb(2.3%, 47.7%, 99.9%);
+  }
+
+div#fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 52px;
+    background-color: #333;
+}
+
+div input {
+    margin: 15px;
 }
